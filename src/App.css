@@ -1,0 +1,22 @@
+/* Define keyframes for gradient animation */
+@keyframes animateGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Apply gradient animation to the background */
+.gradient-bg {
+    background: linear-gradient(90deg, #e7c500, #ec27dc, #f53232, #20B2AA, #03a4ee, #e4cece);
+    background-size: 400% 400%;
+    animation: animateGradient 7s ease infinite;
+}
+.list-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
